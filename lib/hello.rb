@@ -6,4 +6,4 @@ def hello_t(array)
   end
 end
 
-hello_t {puts "Hi, #{array[i]}"}
+hello_t {|name| puts "Hi, #{name}"}
