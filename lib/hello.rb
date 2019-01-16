@@ -6,4 +6,8 @@ def hello_t(array)
   end
 end
 
-hello_t {|name| puts "Hi, #{name}"}
+hello_t {|name|
+  if name.starts_with?("T"
+    puts "Hi, #{name}"
+  end
+}
